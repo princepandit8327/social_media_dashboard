@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Social Media Dashboard
 
 A full-stack social media dashboard with user profiles, media uploads, real-time messaging, engagement analytics, and Redis-powered notifications.
@@ -29,3 +30,7 @@ A full-stack social media dashboard with user profiles, media uploads, real-time
 - Backend uses JWT auth and multer for media uploads.
 - Socket.IO is configured with Redis for scalable notifications.
 - Frontend uses `axios` for API calls and `socket.io-client` for real-time events.
+=======
+# social_media_dashboard
+A modern Social Media Dashboard built with MERN Stack featuring real-time analytics, user engagement tracking, post management, responsive UI, charts, and interactive data visualization.
+>>>>>>> b0e6390e85b003802e1d701058dad88505b7d73e
