@@ -1,0 +1,154 @@
+:root {
+  font-family: Inter, system-ui, sans-serif;
+  color: #222;
+  background: #f4f7fb;
+}
+body {
+  margin: 0;
+  background: #f4f7fb;
+}
+.app-shell {
+  min-height: 100vh;
+}
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  background: #1f2937;
+  color: #fff;
+}
+.topbar a,
+.link-button {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+.link-button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font: inherit;
+}
+.page-content {
+  max-width: 1200px;
+  margin: 1.5rem auto;
+  padding: 0 1rem;
+}
+.card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 12px 35px rgba(15, 23, 42, 0.08);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.grid-2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1.5rem;
+}
+.post-creator textarea,
+.profile-card textarea,
+.auth-card input,
+.auth-card textarea,
+.chat-input-row input {
+  width: 100%;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  padding: 0.9rem;
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+}
+.post-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+.post-card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-top: 1rem;
+}
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+button {
+  border: none;
+  background: #3b82f6;
+  color: white;
+  border-radius: 10px;
+  padding: 0.9rem 1.2rem;
+  cursor: pointer;
+}
+button:hover {
+  background: #2563eb;
+}
+.profile-card {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 1.25rem;
+  align-items: center;
+}
+.avatar {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 2px solid #e5e7eb;
+}
+.metric-card {
+  border-radius: 16px;
+  padding: 1rem;
+  background: #eef2ff;
+  text-align: center;
+}
+.analytics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.auth-card {
+  max-width: 420px;
+  margin: 0 auto;
+  text-align: center;
+}
+.auth-card input,
+.auth-card textarea {
+  display: block;
+}
+.chat-card {
+  position: sticky;
+  top: 1.5rem;
+  max-height: calc(100vh - 5rem);
+  overflow: hidden;
+}
+.chat-log {
+  min-height: 280px;
+  max-height: 420px;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+}
+.chat-message {
+  background: #f3f4f6;
+  border-radius: 14px;
+  padding: 0.85rem;
+  margin-bottom: 0.75rem;
+}
+.chat-input-row {
+  display: flex;
+  gap: 0.75rem;
+}
+.chat-input-row input {
+  flex: 1;
+}
+.error-text {
+  margin-top: 0.5rem;
+  color: #dc2626;
+}
